@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using B_LAYER;
 
 namespace APP_LAYER
 {
@@ -15,6 +16,12 @@ namespace APP_LAYER
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Facade f = Facade.getcontroller();
+            MessageBox.Show(f.my_message(textBox1.Text));
         }
     }
 }

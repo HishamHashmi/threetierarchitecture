@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using D_LAYER;
 
 namespace B_LAYER
 {
@@ -10,8 +11,8 @@ namespace B_LAYER
     {
         public string logic(string m)
         {
-            m = "";
-            return m;
+            datahandler d = new datahandler();
+            return d.datasave(m);
         }
     }
 }

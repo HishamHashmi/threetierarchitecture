@@ -8,7 +8,7 @@ namespace B_LAYER
 {
     public class Facade
     {
-        private Facade f = new Facade();
+        private Facade() { }
         public static Facade instance = null;
         public static Facade getcontroller()
         {
@@ -19,8 +19,8 @@ namespace B_LAYER
 
         public string my_message(string m)
         {
-            m = "";
-            return m;
+            My_Logic m1 = new My_Logic();
+            return m1.logic(m);
         }
     }
 }

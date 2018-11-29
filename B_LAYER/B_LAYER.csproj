@@ -46,5 +46,11 @@
     <Compile Include="My_Logic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\D_LAYER\D_LAYER.csproj">
+      <Project>{ab474bb8-d650-486b-b58e-c1d01702a0da}</Project>
+      <Name>D_LAYER</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
