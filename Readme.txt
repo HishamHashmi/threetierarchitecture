@@ -1,4 +1,4 @@
-This is the baisc implementation of 3 tier architecture in visual c# using windows form application.
+This is the basic implementation of 3 tier architecture in visual c# using windows form application.
 
 Procedure:
 
